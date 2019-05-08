@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name Display_Graphic_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Display_Graphic_Extra.lib)(options "")(descr ""))
+  (lib (name Keyboard)(type Legacy)(uri ${KIPRJMOD}/library/Keyboard.lib)(options "")(descr ""))
+  (lib (name MCU_Microchip_SAMD_Extra)(type Legacy)(uri ${KIPRJMOD}/library/MCU_Microchip_SAMD_Extra.lib)(options "")(descr ""))
+  (lib (name Switch_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Switch_Extra.lib)(options "")(descr ""))
+  (lib (name Interface_Expansion_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Interface_Expansion_Extra.lib)(options "")(descr ""))
+  (lib (name MCU_Module_Extra)(type Legacy)(uri ${KIPRJMOD}/library/MCU_Module_Extra.lib)(options "")(descr ""))
+)
