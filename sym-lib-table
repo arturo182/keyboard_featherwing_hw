@@ -5,4 +5,5 @@
   (lib (name Switch_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Switch_Extra.lib)(options "")(descr ""))
   (lib (name Interface_Expansion_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Interface_Expansion_Extra.lib)(options "")(descr ""))
   (lib (name MCU_Module_Extra)(type Legacy)(uri ${KIPRJMOD}/library/MCU_Module_Extra.lib)(options "")(descr ""))
+  (lib (name Sensor_Motion_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Sensor_Motion_Extra.lib)(options "")(descr ""))
 )

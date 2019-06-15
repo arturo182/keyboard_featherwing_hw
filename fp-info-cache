@@ -1,4 +1,4 @@
-15960452166553696
+16044378936991983
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -1163,21 +1163,21 @@ SMD SMT button
 2
 Button_Switch_SMD
 SW_SP3T_PCM13
-Ultraminiature Surface Mount Slide Switch
+Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf
 
 0
 8
 4
 Button_Switch_SMD
 SW_SPDT_CK-JS102011SAQN
-http://www.ckswitches.com/media/1422/js.pdf
+Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf
 switch spdt
 0
 3
 3
 Button_Switch_SMD
 SW_SPDT_PCM12
-Ultraminiature Surface Mount Slide Switch
+Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf
 
 0
 7
@@ -5943,6 +5943,13 @@ banana jack horizontal
 4
 1
 Connector
+Connector_SFP_and_Cage
+https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2227302&DocType=Customer+Drawing&DocLang=English
+SFP+ SFP
+0
+40
+21
+Connector
 CUI_PD-30
 3 pin connector, PD-30, http://www.cui.com/product/resource/pd-30.pdf
 connector 3-pin PD-30 power DIN
@@ -6033,6 +6040,62 @@ tag connect programming header pogo pins
 0
 14
 14
+Connector_AMASS
+AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal
+Connector XT30 Horizontal PCB Female, https://www.tme.eu/en/Document/5e47640ba39fa492dbd4c0f4c8ae7b93/MR30PW%20SPEC.pdf
+RC Connector XT30
+0
+5
+3
+Connector_AMASS
+AMASS_MR30PW-M_1x03_P3.50mm_Horizontal
+Connector XT30 Horizontal PCB Male, https://www.tme.eu/en/Document/5e47640ba39fa492dbd4c0f4c8ae7b93/MR30PW%20SPEC.pdf
+RC Connector XT30
+0
+5
+3
+Connector_AMASS
+AMASS_XT30PW-F_1x02_P2.50mm_Horizontal
+Connector XT30 Horizontal PCB Female, https://www.tme.eu/en/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf
+RC Connector XT30
+0
+4
+2
+Connector_AMASS
+AMASS_XT30PW-M_1x02_P2.50mm_Horizontal
+Connector XT30 Horizontal PCB Male, https://www.tme.eu/en/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf
+RC Connector XT30
+0
+4
+2
+Connector_AMASS
+AMASS_XT30U-F_1x02_P5.0mm_Vertical
+Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf
+RC Connector XT30
+0
+2
+2
+Connector_AMASS
+AMASS_XT30U-M_1x02_P5.0mm_Vertical
+Connector XT30 Vertical Cable Male, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf
+RC Connector XT30
+0
+2
+2
+Connector_AMASS
+AMASS_XT30UPB-F_1x02_P5.0mm_Vertical
+Connector XT30 Vertical PCB Female, https://www.tme.eu/en/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB%20SPEC.pdf
+RC Connector XT30
+0
+2
+2
+Connector_AMASS
+AMASS_XT30UPB-M_1x02_P5.0mm_Vertical
+Connector XT30 Vertical PCB Male, https://www.tme.eu/en/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB%20SPEC.pdf
+RC Connector XT30
+0
+2
+2
 Connector_Audio
 Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal
 3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)
@@ -46984,6 +47047,13 @@ Inductor Radial series Radial pin pitch 5.00mm  diameter 10.0mm Neosid SD12 styl
 2
 2
 Inductor_THT
+L_Radial_D10.5mm_P4.00x5.00mm_Murata_1200RS
+Inductor, Radial, Pitch=4.00x5.00mm, Diameter=10.5mm, Murata 1200RS, http://www.murata-ps.com/data/magnetics/kmp_1200rs.pdf
+Inductor Radial Murata 1200RS
+0
+4
+2
+Inductor_THT
 L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01
 Inductor, Radial series, Radial, pin pitch=5.00mm, , diameter=10.5mm, Abacron, AISR-01, http://www.abracon.com/Magnetics/radial/AISR-01.pdf
 Inductor Radial series Radial pin pitch 5.00mm  diameter 10.5mm Abacron AISR-01
@@ -51394,6 +51464,27 @@ XFBGA-121
 121
 121
 Package_BGA
+Xilinx_CLG225
+Zynq-7000 BGA, 15x15 grid, 13x13mm package, 0.8mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=77, NSMD pad definition Appendix A
+BGA 225 0.8 CLG225
+0
+225
+225
+Package_BGA
+Xilinx_CLG400
+Zynq-7000 BGA, 20x20 grid, 17x17mm package, 0.8mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=78, NSMD pad definition Appendix A
+BGA 400 0.8 CLG400 CL400
+0
+400
+400
+Package_BGA
+Xilinx_CLG484_CLG485
+Zynq-7000 BGA, 22x22 grid, 19x19mm package, 0.8mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=79, NSMD pad definition Appendix A
+BGA 484 0.8 CLG484 CL484 CLG485 CL485
+0
+484
+484
+Package_BGA
 Xilinx_CPG236
 Artix-7 BGA, 19x19 grid, 10x10mm package, 0.5mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=266, NSMD pad definition Appendix A
 BGA 238 0.5 CP236 CPG236
@@ -51444,25 +51535,74 @@ BGA 324 0.8 CSGA324
 324
 Package_BGA
 Xilinx_FBG484
-Artix-7 BGA, 22x22 grid, 23x23mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=271, NSMD pad definition Appendix A
+Artix-7, Kintex-7 and Zynq-7000 BGA, 22x22 grid, 23x23mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=271, ttps://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=281, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=82, NSMD pad definition Appendix A
 BGA 484 1 FB484 FBG484 FBV484
 0
 484
 484
 Package_BGA
 Xilinx_FBG676
-Artix-7 BGA, 26x26 grid, 27x27mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=273, NSMD pad definition Appendix A
+Artix-7, Kintex-7 and Zynq-7000 BGA, 26x26 grid, 27x27mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=273, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=284, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=84, NSMD pad definition Appendix A
 BGA 676 1 FB676 FBG676 FBV676
 0
 676
 676
 Package_BGA
+Xilinx_FBG900
+Kintex-7 BGA, 30x30 grid, 31x31mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=289, NSMD pad definition Appendix A
+BGA 900 1 FB900 FBG900 FBV900
+0
+900
+900
+Package_BGA
+Xilinx_FFG676
+Kintex-7 and Zynq-7000 BGA, 26x26 grid, 27x27mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=292, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=88, NSMD pad definition Appendix A
+BGA 676 1 FF676 FFG676 FFV676
+0
+676
+676
+Package_BGA
+Xilinx_FFG900_FFG901
+Kintex-7 and Zynq-7000 BGA, 30x30 grid, 31x31mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=294, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=90, NSMD pad definition Appendix A
+BGA 900 1 FF900 FFG900 FFV900 FF901 FFG901 FFV901
+0
+900
+900
+Package_BGA
 Xilinx_FFG1156
-Artix-7 BGA, 34x34 grid, 35x35mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=277, NSMD pad definition Appendix A
+Artix-7, Kintex-7 and Zynq-7000 BGA, 34x34 grid, 35x35mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=277, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=296, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=91, NSMD pad definition Appendix A
 BGA 1156 1 FF1156 FFG1156 FFV1156
 0
 1156
 1156
+Package_BGA
+Xilinx_FFG1157_FFG1158
+Virtex-7 BGA, 34x34 grid, 35x35mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=299, NSMD pad definition Appendix A
+BGA 1156 1 FF1157 FFG1157 FFV1157 FF1158 FFG1158 FFV1158
+0
+1156
+1156
+Package_BGA
+Xilinx_FFG1761
+Virtex-7 BGA, 42x42 grid, 42.5x42.5mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=300, NSMD pad definition Appendix A
+BGA 1760 1 FF1761 FFG1761
+0
+1760
+1760
+Package_BGA
+Xilinx_FFG1926_FFG1927_FFG1928_FFG1930
+Virtex-7 BGA, 44x44 grid, 45x45mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=303, NSMD pad definition Appendix A
+BGA 1924 1 FF1926 FFG1926 FF1927 FFG1927 FFV1927 FF1928 FFG1928 FF1930 FFG1930
+0
+1924
+1924
+Package_BGA
+Xilinx_FFV1761
+Virtex-7 BGA, 42x42 grid, 42.5x42.5mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=301, NSMD pad definition Appendix A
+BGA 1760 1 FFV1761
+0
+1760
+1760
 Package_BGA
 Xilinx_FGG484
 Artix-7 BGA, 22x22 grid, 23x23mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=275, NSMD pad definition Appendix A
@@ -51492,6 +51632,20 @@ BGA 676 1 FGGA676
 676
 676
 Package_BGA
+Xilinx_FHG1761
+Virtex-7 BGA, 42x42 grid, 45x45mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=302, NSMD pad definition Appendix A
+BGA 1760 1 FH1761 FHG1761
+0
+1760
+1760
+Package_BGA
+Xilinx_FLG1925_FLG1926_FLG1928_FLG1930
+Virtex-7 BGA, 44x44 grid, 45x45mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=304, NSMD pad definition Appendix A
+BGA 1924 1 FL1925 FLG1925 FL1926 FLG1926 FL1928 FLG1928 FL1930 FLG1930
+0
+1924
+1924
+Package_BGA
 Xilinx_FTG256
 Artix-7 BGA, 16x16 grid, 17x17mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=269, NSMD pad definition Appendix A
 BGA 256 1 FT256 FTG256
@@ -51507,7 +51661,7 @@ BGA 196 1 FTGB196
 196
 Package_BGA
 Xilinx_RB484
-Artix-7 BGA, 22x22 grid, 23x23mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=278, NSMD pad definition Appendix A
+Artix-7 and Zynq-7000 BGA, 22x22 grid, 23x23mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=278, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=92, NSMD pad definition Appendix A
 BGA 484 1 RB484
 0
 484
@@ -51516,6 +51670,55 @@ Package_BGA
 Xilinx_RB676
 Artix-7 BGA, 26x26 grid, 27x27mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=280, NSMD pad definition Appendix A
 BGA 676 1 RB676
+0
+676
+676
+Package_BGA
+Xilinx_RF676
+Kintex-7 BGA, 26x26 grid, 27x27mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=297, NSMD pad definition Appendix A
+BGA 676 1 RF676
+0
+676
+676
+Package_BGA
+Xilinx_RF900
+Kintex-7 and Zynq-7000 BGA, 30x30 grid, 31x31mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=298, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=94, NSMD pad definition Appendix A
+BGA 900 1 RF900
+0
+900
+900
+Package_BGA
+Xilinx_RF1156
+Zynq-7000 BGA, 34x34 grid, 35x35mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=95, NSMD pad definition Appendix A
+BGA 1156 1 RF1156
+0
+1156
+1156
+Package_BGA
+Xilinx_RF1157_RF1158
+Virtex-7 BGA, 34x34 grid, 35x35mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=305, NSMD pad definition Appendix A
+BGA 1156 1 RF1157 RF1158
+0
+1156
+1156
+Package_BGA
+Xilinx_RF1761
+Virtex-7 BGA, 42x42 grid, 42.5x42.5mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=306, NSMD pad definition Appendix A
+BGA 1760 1 RF1761
+0
+1760
+1760
+Package_BGA
+Xilinx_RF1930
+Virtex-7 BGA, 44x44 grid, 45x45mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=307, NSMD pad definition Appendix A
+BGA 1924 1 RF1930
+0
+1924
+1924
+Package_BGA
+Xilinx_RFG676
+Zynq-7000 BGA, 26x26 grid, 27x27mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=93, NSMD pad definition Appendix A
+BGA 676 1 RF676 RFG676
 0
 676
 676
@@ -51530,6 +51733,13 @@ Package_BGA
 Xilinx_SBG484
 Artix-7 BGA, 22x22 grid, 19x19mm package, 0.8mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=270, NSMD pad definition Appendix A
 BGA 484 0.8 SB484 SBG484 SBV484
+0
+484
+484
+Package_BGA
+Xilinx_SBG485
+Zynq-7000 BGA, 22x22 grid, 19x19mm package, 0.8mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=80, NSMD pad definition Appendix A
+BGA 484 0.8 SBG485 SBV485
 0
 484
 484
@@ -53291,6 +53501,20 @@ QFN DFN_QFN
 59
 33
 Package_DFN_QFN
+QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm
+QFN, 32 Pin (https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+37
+33
+Package_DFN_QFN
+QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm_ThermalVias
+QFN, 32 Pin (https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+59
+33
+Package_DFN_QFN
 QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm
 QFN, 32 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_32_05-08-1693.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
@@ -54389,6 +54613,13 @@ UDFN-4_1x1mm_P0.65mm
 0
 16
 5
+Package_DFN_QFN
+UDFN-9_1.0x3.8mm_P0.5mm
+9-pin UDFN package, 1.0x3.8mm, (Ref: https://katalog.we-online.de/pbs/datasheet/824014881.pdf)
+UDFN SMD
+0
+9
+9
 Package_DFN_QFN
 UDFN-10_1.35x2.6mm_P0.5mm
 http://www.st.com/content/ccc/resource/technical/document/datasheet/f2/11/8a/ed/40/31/40/56/DM00088292.pdf/files/DM00088292.pdf/jcr:content/translations/en.DM00088292.pdf
@@ -56742,8 +56973,8 @@ Analog Devices (Linear Tech), 133-pin LGA uModule, 15.0x15.0x4.32mm, https://www
 133
 133
 Package_LGA
-NXP_MPL115A1_LGA-8_3x5mm_P1.25mm
-NXP MPL115A1 LGA, 8 Pin (https://www.nxp.com/docs/en/data-sheet/MPL115A1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+NXP_LGA-8_3x5mm_P1.25mm_H1.2mm
+NXP  LGA, 8 Pin (https://www.nxp.com/docs/en/data-sheet/MPL115A1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 NXP LGA NoLead
 0
 8
@@ -65309,6 +65540,13 @@ Shielding Cabinet
 0
 48
 1
+RF_WiFi
+USR-C322
+https://www.usriot.com/download/WIFI/USR-C322-Hardware-Manual_V1.2.01.pdf
+WiFi IEEE802.11 b/g/n
+0
+44
+44
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
