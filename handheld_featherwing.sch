@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:handheld_featherwing-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -137,17 +136,6 @@ Text Label 9050 3300 2    50   ~ 0
 GPIO5
 Wire Wire Line
 	9050 3300 9100 3300
-$Comp
-L Jumper:SolderJumper_2_Bridged JP1
-U 1 1 5CDA97F7
-P 9250 3300
-F 0 "JP1" H 9250 3413 50  0000 C CNN
-F 1 "SB_CARD_CS" H 9250 3414 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 9250 3300 50  0001 C CNN
-F 3 "~" H 9250 3300 50  0001 C CNN
-	1    9250 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9400 3300 9450 3300
 Text Label 9450 3300 0    50   ~ 0
@@ -1109,7 +1097,7 @@ U 1 1 5CEE2E84
 P 8900 1400
 F 0 "U8" H 8750 1550 50  0000 C CNN
 F 1 "74AHCT1G125" H 8600 1200 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8900 1400 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 8900 1400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 8900 1400 50  0001 C CNN
 	1    8900 1400
 	1    0    0    -1  
@@ -1194,7 +1182,7 @@ U 1 1 5D021B4A
 P 9250 2200
 F 0 "D2" H 9350 2150 50  0000 C CNN
 F 1 "S1JHE" H 9250 2086 50  0001 C CNN
-F 2 "Diode_SMD:D_SOD-323" V 9250 2200 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 9250 2200 50  0001 C CNN
 F 3 "~" V 9250 2200 50  0001 C CNN
 	1    9250 2200
 	-1   0    0    1   
@@ -1209,7 +1197,7 @@ U 1 1 5D02215A
 P 9250 2350
 F 0 "D3" H 9350 2300 50  0000 C CNN
 F 1 "S1JHE" H 9250 2236 50  0001 C CNN
-F 2 "Diode_SMD:D_SOD-323" V 9250 2350 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 9250 2350 50  0001 C CNN
 F 3 "~" V 9250 2350 50  0001 C CNN
 	1    9250 2350
 	-1   0    0    1   
@@ -1264,5 +1252,16 @@ F 2 "" H 10950 6200 50  0001 C CNN
 F 3 "~" H 10950 6200 50  0001 C CNN
 	1    10950 6200
 	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP1
+U 1 1 5CDA97F7
+P 9250 3300
+F 0 "JP1" H 9250 3413 50  0000 C CNN
+F 1 "SB_CARD_CS" H 9250 3414 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 9250 3300 50  0001 C CNN
+F 3 "~" H 9250 3300 50  0001 C CNN
+	1    9250 3300
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

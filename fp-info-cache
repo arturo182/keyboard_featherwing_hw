@@ -1,4 +1,4 @@
-16044378936991983
+16234180689535059
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -122,6 +122,13 @@ Battery
 BatteryHolder_Keystone_3001_1x12mm
 http://www.keyelco.com/product-pdf.cfm?p=778
 Keystone type 3001 coin cell retainer
+0
+3
+2
+Battery
+BatteryHolder_Keystone_3002_1x2032
+https://www.tme.eu/it/Document/a823211ec201a9e209042d155fe22d2b/KEYS2996.pdf
+BR2016 CR2016 DL2016 BR2020 CL2020 BR2025 CR2025 DL2025 DR2032 CR2032 DL2032
 0
 3
 2
@@ -1155,6 +1162,13 @@ tactile switch ksc7
 4
 2
 Button_Switch_SMD
+SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR
+C&K Switches 1P1T SMD PTS125 Series 12mm Tact Switch with Pegs, https://www.ckswitches.com/media/1462/pts125.pdf
+Button Tactile Switch SPST 1P1T
+0
+4
+2
+Button_Switch_SMD
 SW_Push_SPST_NO_Alps_SKRK
 http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html
 SMD SMT button
@@ -1441,6 +1455,27 @@ SPST Tactile Switch
 0
 4
 2
+Button_Switch_SMD_Extra
+MCPL3-AC-V
+
+
+0
+5
+5
+Button_Switch_SMD_Extra
+RMT-CZ66
+
+
+0
+2
+2
+Button_Switch_SMD_Extra
+SF303GJ26
+
+
+0
+8
+7
 Button_Switch_THT
 KSA_Tactile_SPST
 KSA http://www.ckswitches.com/media/1457/ksa_ksl.pdf
@@ -1889,6 +1924,27 @@ tact sw push 12mm
 0
 4
 2
+Button_Switch_THT
+SW_Push_1P1T_NO_LED_E-Switch_TL1250
+illuminated right angle tact switch https://www.e-switch.com/system/asset/product_line/data_sheet/148/TL1250.pdf
+led push switch right angle
+0
+6
+4
+Button_Switch_THT
+SW_Push_1P2T_Vertical_E-Switch_800UDP8P1A1M6
+ right angle SPDT push button https://www.e-switch.com/system/asset/product_line/data_sheet/210/800U.pdf
+IP67 ultra-miniture horizontal
+0
+5
+3
+Button_Switch_THT
+SW_Push_2P2T_Vertical_E-Switch_800UDP8P1A1M6
+ right angle DPDT push button https://www.e-switch.com/system/asset/product_line/data_sheet/210/800U.pdf
+IP67 ultra-miniture horizontal
+0
+8
+6
 Button_Switch_THT
 SW_PUSH_6mm
 https://www.omron.com/ecb/products/pdf/en-b3f.pdf
@@ -6125,6 +6181,20 @@ TRS audio jack stereo horizontal circular
 3
 3
 Connector_Audio
+Jack_3.5mm_CUI_SJ1-3535NG_Horizontal
+TRS 3.5mm, horizontal, through-hole, with switch, https://www.cui.com/product/resource/sj1-353xng.pdf
+TRS audio jack stereo horizontal
+0
+5
+5
+Connector_Audio
+Jack_3.5mm_CUI_SJ1-3535NG_Horizontal_CircularHoles
+TRS 3.5mm, horizontal, through-hole, with switch, circular holes, https://www.cui.com/product/resource/sj1-353xng.pdf
+TRS audio jack stereo horizontal circular
+0
+5
+5
+Connector_Audio
 Jack_3.5mm_Ledino_KB3SPRS_Horizontal
 https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=C160%252FKB3SPRS.pdf
 jack stereo TRS
@@ -6299,6 +6369,13 @@ sd card
 0
 15
 12
+Connector_Card_Extra
+microSD_HC_Molex_104031-0811
+Micro SD, SMD, right-angle, https://www.molex.com/pdm_docs/sd/1040310811_sd.pdf
+Micro SD
+0
+14
+11
 Connector_Coaxial
 BNC_Amphenol_B6252HB-NPP3G-50_Horizontal
 http://www.farnell.com/datasheets/612848.pdf
@@ -6387,6 +6464,13 @@ Connector_Coaxial
 SMA_Amphenol_132134_Vertical
 https://www.amphenolrf.com/downloads/dl/file/id/2187/product/2843/132134_customer_drawing.pdf
 SMA THT Female Jack Vertical ExtendedLegs
+0
+5
+2
+Connector_Coaxial
+SMA_Amphenol_132203-12_Horizontal
+https://www.amphenolrf.com/media/downloads/1769/132203-12.pdf
+SMA THT Female Jack Horizontal
 0
 5
 2
@@ -7377,6 +7461,13 @@ DSUB-62-HD_Male_Vertical_P2.41x1.98mm_MountingHoles
 0
 64
 63
+Connector_EastRising
+ER-CON50HT-1
+
+
+0
+52
+50
 Connector_FFC-FPC
 Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal
 Molex FH12, FFC/FPC connector, FH12-6S-0.5SH, 6 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
@@ -7811,6 +7902,27 @@ connector Molex  top entry
 0
 32
 31
+Connector_FFC-FPC
+Molex_502231-1500_1x15-1SH_P0.5mm_Vertical
+Molex 0.50mm Pitch Easy-On Type FFC/FPC Connector, For LVDS, 6.05mm Height, Vertical, Surface Mount, ZIF, 15 Circuits (https://www.molex.com/pdm_docs/sd/5022311500_sd.pdf)
+molex FFC/FPC connector Pitch 0.5mm vertical
+0
+17
+16
+Connector_FFC-FPC
+Molex_502231-2400_1x24-1SH_P0.5mm_Vertical
+Molex 0.50mm Pitch Easy-On Type FFC/FPC Connector, For LVDS, 6.05mm Height, Vertical, Surface Mount, ZIF, 24 Circuits (https://www.molex.com/pdm_docs/sd/5022312400_sd.pdf)
+molex FFC/FPC connector Pitch 0.5mm vertical
+0
+26
+25
+Connector_FFC-FPC
+Molex_502231-3300_1x33-1SH_P0.5mm_Vertical
+Molex 0.50mm Pitch Easy-On Type FFC/FPC Connector, For LVDS, 6.05mm Height, Vertical, Surface Mount, ZIF, 33 Circuits (https://www.molex.com/pdm_docs/sd/5022313300_sd.pdf)
+molex FFC/FPC connector Pitch 0.5mm vertical
+0
+36
+34
 Connector_FFC-FPC
 Molex_502244-1530_1x15-1MP_P0.5mm_Horizontal
 Molex 0.50mm Pitch Easy-On Type FFC/FPC Connector, For LVDS, 2.33mm Height, Right Angle, Surface Mount, ZIF, Bottom Contact Style, 15 Circuits (http://www.molex.com/pdm_docs/sd/5022441530_sd.pdf)
@@ -8981,6 +9093,139 @@ connector Hirose 40pin receptacle vertical
 42
 42
 Connector_Hirose
+Hirose_DF12_DF12C3.0-10DS-0.5V_2x05_P0.50mm_Vertical
+Hirose DF12C SMD, DF12C3.0-10DS-0.5V, 10 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0694-9-81&productname=DF12C(3.0)-50DS-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000994748), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+20
+10
+Connector_Hirose
+Hirose_DF12_DF12C3.0-14DS-0.5V_2x07_P0.50mm_Vertical
+Hirose DF12C SMD, DF12C3.0-14DS-0.5V, 14 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0694-9-81&productname=DF12C(3.0)-50DS-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000994748), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+28
+14
+Connector_Hirose
+Hirose_DF12_DF12C3.0-20DS-0.5V_2x10_P0.50mm_Vertical
+Hirose DF12C SMD, DF12C3.0-20DS-0.5V, 20 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0694-9-81&productname=DF12C(3.0)-50DS-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000994748), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+40
+20
+Connector_Hirose
+Hirose_DF12_DF12C3.0-30DS-0.5V_2x15_P0.50mm_Vertical
+Hirose DF12C SMD, DF12C3.0-30DS-0.5V, 30 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0694-9-81&productname=DF12C(3.0)-50DS-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000994748), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+60
+30
+Connector_Hirose
+Hirose_DF12_DF12C3.0-32DS-0.5V_2x16_P0.50mm_Vertical
+Hirose DF12C SMD, DF12C3.0-32DS-0.5V, 32 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0694-9-81&productname=DF12C(3.0)-50DS-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000994748), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+64
+32
+Connector_Hirose
+Hirose_DF12_DF12C3.0-36DS-0.5V_2x18_P0.50mm_Vertical
+Hirose DF12C SMD, DF12C3.0-36DS-0.5V, 36 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0694-9-81&productname=DF12C(3.0)-50DS-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000994748), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+72
+36
+Connector_Hirose
+Hirose_DF12_DF12C3.0-40DS-0.5V_2x20_P0.50mm_Vertical
+Hirose DF12C SMD, DF12C3.0-40DS-0.5V, 40 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0694-9-81&productname=DF12C(3.0)-50DS-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000994748), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+80
+40
+Connector_Hirose
+Hirose_DF12_DF12C3.0-50DS-0.5V_2x25_P0.50mm_Vertical
+Hirose DF12C SMD, DF12C3.0-50DS-0.5V, 50 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0694-9-81&productname=DF12C(3.0)-50DS-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000994748), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+100
+50
+Connector_Hirose
+Hirose_DF12_DF12C3.0-60DS-0.5V_2x30_P0.50mm_Vertical
+Hirose DF12C SMD, DF12C3.0-60DS-0.5V, 60 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0694-9-81&productname=DF12C(3.0)-50DS-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000994748), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+120
+60
+Connector_Hirose
+Hirose_DF12_DF12E3.0-10DP-0.5V_2x05_P0.50mm_Vertical
+Hirose DF12E SMD, DF12E3.0-10DP-0.5V, 10 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0834-6-81&productname=DF12E(3.0)-50DP-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000992393), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+20
+10
+Connector_Hirose
+Hirose_DF12_DF12E3.0-14DP-0.5V_2x07_P0.50mm_Vertical
+Hirose DF12E SMD, DF12E3.0-14DP-0.5V, 14 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0834-6-81&productname=DF12E(3.0)-50DP-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000992393), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+28
+14
+Connector_Hirose
+Hirose_DF12_DF12E3.0-20DP-0.5V_2x10_P0.50mm_Vertical
+Hirose DF12E SMD, DF12E3.0-20DP-0.5V, 20 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0834-6-81&productname=DF12E(3.0)-50DP-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000992393), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+40
+20
+Connector_Hirose
+Hirose_DF12_DF12E3.0-30DP-0.5V_2x15_P0.50mm_Vertical
+Hirose DF12E SMD, DF12E3.0-30DP-0.5V, 30 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0834-6-81&productname=DF12E(3.0)-50DP-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000992393), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+60
+30
+Connector_Hirose
+Hirose_DF12_DF12E3.0-32DP-0.5V_2x16_P0.50mm_Vertical
+Hirose DF12E SMD, DF12E3.0-32DP-0.5V, 32 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0834-6-81&productname=DF12E(3.0)-50DP-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000992393), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+64
+32
+Connector_Hirose
+Hirose_DF12_DF12E3.0-36DP-0.5V_2x18_P0.50mm_Vertical
+Hirose DF12E SMD, DF12E3.0-36DP-0.5V, 36 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0834-6-81&productname=DF12E(3.0)-50DP-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000992393), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+72
+36
+Connector_Hirose
+Hirose_DF12_DF12E3.0-40DP-0.5V_2x20_P0.50mm_Vertical
+Hirose DF12E SMD, DF12E3.0-40DP-0.5V, 40 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0834-6-81&productname=DF12E(3.0)-50DP-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000992393), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+80
+40
+Connector_Hirose
+Hirose_DF12_DF12E3.0-50DP-0.5V_2x25_P0.50mm_Vertical
+Hirose DF12E SMD, DF12E3.0-50DP-0.5V, 50 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0834-6-81&productname=DF12E(3.0)-50DP-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000992393), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+100
+50
+Connector_Hirose
+Hirose_DF12_DF12E3.0-60DP-0.5V_2x30_P0.50mm_Vertical
+Hirose DF12E SMD, DF12E3.0-60DP-0.5V, 60 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0834-6-81&productname=DF12E(3.0)-50DP-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000992393), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+120
+60
+Connector_Hirose
+Hirose_DF12_DF12E3.0-80DP-0.5V_2x40_P0.50mm_Vertical
+Hirose DF12E SMD, DF12E3.0-80DP-0.5V, 80 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0834-6-81&productname=DF12E(3.0)-50DP-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000992393), generated with kicad-footprint-generator
+connector Hirose DF12 side entry
+0
+160
+80
+Connector_Hirose
 Hirose_DF13-02P-1.25DSA_1x02_P1.25mm_Vertical
 Molex DF13 through hole, DF13-02P-1.25DSA, 2 Pins per row (https://www.hirose.com/product/en/products/DF13/DF13-2P-1.25DSA%2850%29/), generated with kicad-footprint-generator
 connector Hirose  side entry
@@ -9393,6 +9638,13 @@ connector Hirose  top entry
 0
 6
 6
+Connector_Hirose_Extra
+BM14B(0.8)-24DS-0.4V(53)
+
+
+0
+28
+28
 Connector_IDC
 IDC-Header_2x03_P2.54mm_Horizontal
 Through hole angled IDC box header, 2x03, 2.54mm pitch, double rows
@@ -16863,51 +17115,51 @@ connector Molex Sabre top entry
 90
 6
 Connector_Molex
-Molex_SlimStack_52991-0200_2x10_P0.50mm_Vertical
-Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0200, 20 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
-connector Molex SlimStack side entry
+Molex_SlimStack_52991-0208_2x10_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0208, 20 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack vertical
 0
 20
 20
 Connector_Molex
-Molex_SlimStack_52991-0300_2x15_P0.50mm_Vertical
-Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0300, 30 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
-connector Molex SlimStack side entry
+Molex_SlimStack_52991-0308_2x15_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0308, 30 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack vertical
 0
 30
 30
 Connector_Molex
-Molex_SlimStack_52991-0400_2x20_P0.50mm_Vertical
-Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0400, 40 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
-connector Molex SlimStack side entry
+Molex_SlimStack_52991-0408_2x20_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0408, 40 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack vertical
 0
 40
 40
 Connector_Molex
-Molex_SlimStack_52991-0500_2x25_P0.50mm_Vertical
-Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0500, 50 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
-connector Molex SlimStack side entry
+Molex_SlimStack_52991-0508_2x25_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0508, 50 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack vertical
 0
 50
 50
 Connector_Molex
-Molex_SlimStack_52991-0600_2x30_P0.50mm_Vertical
-Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0600, 60 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
-connector Molex SlimStack side entry
+Molex_SlimStack_52991-0608_2x30_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0608, 60 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack vertical
 0
 60
 60
 Connector_Molex
-Molex_SlimStack_52991-0700_2x35_P0.50mm_Vertical
-Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0700, 70 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
-connector Molex SlimStack side entry
+Molex_SlimStack_52991-0708_2x35_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0708, 70 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack vertical
 0
 70
 70
 Connector_Molex
-Molex_SlimStack_52991-0800_2x40_P0.50mm_Vertical
-Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0800, 80 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
-connector Molex SlimStack side entry
+Molex_SlimStack_52991-0808_2x40_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0808, 80 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack vertical
 0
 80
 80
@@ -17541,6 +17793,34 @@ PCIexpress Bus Edge Connector
 0
 70
 36
+Connector_PCBEdge
+molex_EDGELOCK_2-CKT
+https://www.molex.com/pdm_docs/sd/2008900106_sd.pdf
+Connector PCBEdge molex EDGELOCK
+0
+2
+2
+Connector_PCBEdge
+molex_EDGELOCK_4-CKT
+https://www.molex.com/pdm_docs/sd/2008900106_sd.pdf
+Connector PCBEdge molex EDGELOCK
+0
+4
+4
+Connector_PCBEdge
+molex_EDGELOCK_6-CKT
+https://www.molex.com/pdm_docs/sd/2008900106_sd.pdf
+Connector PCBEdge molex EDGELOCK
+0
+6
+6
+Connector_PCBEdge
+molex_EDGELOCK_8-CKT
+https://www.molex.com/pdm_docs/sd/2008900106_sd.pdf
+Connector PCBEdge molex EDGELOCK
+0
+8
+8
 Connector_PCBEdge
 Samtec_MECF-05-0_-L-DV_2x05_P1.27mm_Polarized_Edge
 Highspeed card edge connector for PCB's with 05 contacts (polarized)
@@ -39857,6 +40137,13 @@ connector TE MATE-N-LOK top entry
 0
 1
 1
+Connector_TE-Connectivity
+TE_MATE-N-LOK_350211-1_1x04_P5.08mm_Vertical
+https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F350211%7FU5%7Fpdf%7FEnglish%7FENG_CD_350211_U5.pdf%7F350211-1
+connector TE MATE-N-LOK top entry ATA PATA IDE 5.25 inch floppy drive power
+0
+4
+4
 Connector_USB
 USB3_A_Molex_48393-001
 USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)
@@ -39976,6 +40263,13 @@ USB C Type-C Receptacle SMD
 0
 28
 25
+Connector_USB
+USB_C_Receptacle_Palconn_UTC16-G
+http://www.palpilot.com/wp-content/uploads/2017/05/UTC027-GKN-OR-Rev-A.pdf
+USB C Type-C Receptacle USB2.0
+0
+20
+17
 Connector_USB
 USB_Micro-B_Amphenol_10103594-0001LF_Horizontal
 Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
@@ -40614,6 +40908,13 @@ recom power ac dc
 5
 5
 Converter_ACDC
+Converter_ACDC_TRACO_TMG-15_THT
+ACDC-Converter, TRACO, TMG Series 15 https://www.tracopower.com/products/tmg.pdf
+ACDC-Converter TRACO TMG Series 15
+0
+4
+4
+Converter_ACDC
 Converter_ACDC_TRACO_TMLM-04_THT
 ACDC-Converter, TRACO, TMLM Series 04 https://www.tracopower.com/products/tmlm.pdf
 ACDC-Converter TRACO TMLM Series 04
@@ -40739,6 +41040,13 @@ murata dc-dc transformer
 0
 4
 4
+Converter_DCDC
+Converter_DCDC_Murata_MGJ3
+Murata MGJ3, 5.2kVDC Isolated 3W Gate Drive, 15V/5V/5V Configurable, 22.61x23.11x14.19mm, https://power.murata.com/datasheet?/data/power/ncl/kdc_mgj3.pdf
+DCDC SMD
+0
+7
+7
 Converter_DCDC
 Converter_DCDC_Murata_NCS1SxxxxSC_THT
 Murata NCS1SxxxxSC https://power.murata.com/data/power/ncl/kdc_ncs1.pdf (Script generated with StandardBox.py) (Murata NCS1SxxxxSC https://power.murata.com/data/power/ncl/kdc_ncs1.pdf)
@@ -42258,6 +42566,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+Diode_SMD
+Diode_Bridge_Bourns_CD-DF4xxS
+8.1x10.5mm, 4A, single phase bridge rectifier, https://www.bourns.com/docs/Product-Datasheets/CD-DF4xxSL.pdf
+Surface Mount Bridge Rectifier Diode
+0
+4
+4
 Diode_SMD
 Diode_Bridge_Diotec_ABS
 SMD diode bridge ABS (Diotec), see https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf
@@ -45122,6 +45437,13 @@ inductor handsolder
 2
 2
 Inductor_SMD
+L_Abracon_ASPI-0630LR
+smd shielded power inductor https://abracon.com/Magnetics/power/ASPI-0630LR.pdf
+inductor abracon smd shielded
+0
+2
+2
+Inductor_SMD
 L_Abracon_ASPI-3012S
 smd shielded power inductor http://www.abracon.com/Magnetics/power/ASPI-3012S.pdf
 inductor abracon smd shielded
@@ -45174,6 +45496,13 @@ Inductor_SMD
 L_Bourns_SRN6045TA
 http://www.bourns.com/docs/product-datasheets/srn6045ta.pdf
 Semi-shielded Power Inductor
+0
+2
+2
+Inductor_SMD
+L_Bourns_SRN8040TA
+https://www.bourns.com/docs/product-datasheets/srn8040ta.pdf
+Inductor
 0
 2
 2
@@ -45720,6 +46049,83 @@ Inductor_SMD
 L_Taiyo-Yuden_NR-80xx_HandSoldering
 Inductor, Taiyo Yuden, NR series, Taiyo-Yuden_NR-80xx, 8.0mmx8.0mm
 inductor taiyo-yuden nr smd
+0
+2
+2
+Inductor_SMD
+L_TDK_SLF6025
+Inductor, TDK, SLF6025, 6.0mmx6.0mm (Script generated with StandardBox.py) (https://product.tdk.com/info/en/document/catalog/smd/inductor_commercial_power_slf6025_en.pdf)
+Inductor TDK_SLF6025
+0
+2
+2
+Inductor_SMD
+L_TDK_SLF6028
+Inductor, TDK, SLF6028, 6.0mmx6.0mm (Script generated with StandardBox.py) (https://product.tdk.com/info/en/document/catalog/smd/inductor_commercial_power_slf6028_en.pdf)
+Inductor TDK_SLF6028
+0
+2
+2
+Inductor_SMD
+L_TDK_SLF6045
+Inductor, TDK, SLF6045, 6.0mmx6.0mm (Script generated with StandardBox.py) (https://product.tdk.com/info/en/document/catalog/smd/inductor_commercial_power_slf6045_en.pdf)
+Inductor TDK_SLF6045
+0
+2
+2
+Inductor_SMD
+L_TDK_SLF7032
+Inductor, TDK, SLF7032, 7.0mmx7.0mm (Script generated with StandardBox.py) (https://product.tdk.com/info/en/document/catalog/smd/inductor_commercial_power_slf7032_en.pdf)
+Inductor TDK_SLF7032
+0
+2
+2
+Inductor_SMD
+L_TDK_SLF7045
+Inductor, TDK, SLF7045, 7.0mmx7.0mm (Script generated with StandardBox.py) (https://product.tdk.com/info/en/document/catalog/smd/inductor_commercial_power_slf7045_en.pdf)
+Inductor TDK_SLF7045
+0
+2
+2
+Inductor_SMD
+L_TDK_SLF7055
+Inductor, TDK, SLF7055, 7.0mmx7.0mm (Script generated with StandardBox.py) (https://product.tdk.com/info/en/document/catalog/smd/inductor_commercial_power_slf7055_en.pdf)
+Inductor TDK_SLF7055
+0
+2
+2
+Inductor_SMD
+L_TDK_SLF10145
+Inductor, TDK, SLF10145, 10.1mmx10.1mm (Script generated with StandardBox.py) (https://product.tdk.com/info/en/catalog/datasheets/inductor_automotive_power_slf10145-h_en.pdf)
+Inductor TDK_SLF10145
+0
+2
+2
+Inductor_SMD
+L_TDK_SLF10165
+Inductor, TDK, SLF10165, 10.1mmx10.1mm (Script generated with StandardBox.py) (https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_power_slf10165_en.pdf)
+Inductor TDK_SLF10165
+0
+2
+2
+Inductor_SMD
+L_TDK_SLF12555
+Inductor, TDK, SLF12555, 12.5mmx12.5mm (Script generated with StandardBox.py) (https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_power_slf12555_en.pdf)
+Inductor SLF12555
+0
+2
+2
+Inductor_SMD
+L_TDK_SLF12565
+Inductor, TDK, SLF12565, 12.5mmx12.5mm (Script generated with StandardBox.py) (https://product.tdk.com/info/en/catalog/datasheets/inductor_automotive_power_slf12565-h_en.pdf)
+Inductor SLF12565
+0
+2
+2
+Inductor_SMD
+L_TDK_SLF12575
+Inductor, TDK, SLF12575, 12.5mmx12.5mm (Script generated with StandardBox.py) (https://product.tdk.com/info/en/catalog/datasheets/inductor_automotive_power_slf12575-h_en.pdf)
+Inductor SLF12575
 0
 2
 2
@@ -48419,6 +48825,13 @@ LED RGB APFA3010 KINGBRIGHT 3x1.5mm
 4
 4
 LED_SMD
+LED_LiteOn_LTST-S326
+http://optoelectronics.liteon.com/upload/download/DS22-2000-287/LTST-S326KGJRKT.PDF
+LED SMD right angle  CCA
+0
+3
+3
+LED_SMD
 LED_miniPLCC_2315
 https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DAV02-2205EN_DS_ASMT-TxBM_2014-05-09.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430858274704&ssbinary=true
 LED
@@ -49230,6 +49643,13 @@ ESP8266 WiFi microcontroller
 0
 16
 16
+Module_Extra
+FeatherWing
+
+
+0
+56
+28
 MountingEquipment
 DINRailAdapter_3xM3_PhoenixContact_1201578
 https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1201578&library=usen&tab=1
@@ -49895,6 +50315,13 @@ mounting hole 8.4mm m8
 0
 9
 1
+MountingHole_Extra
+MountingHole_3.2mm_M3_with_paste
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -50183,6 +50610,20 @@ Laser Diode TO56
 3
 3
 OptoDevice
+Lightpipe_Mentor_1276.1004
+https://www.mentor-bauelemente.de/katalog/ll/MENTOR-LL.pdf
+spherical light pipe 4 way 3mm PLCC-2 PLCC-4
+0
+0
+0
+OptoDevice
+Lightpipe_Mentor_1276.2004
+https://www.mentor-bauelemente.de/katalog/ll/MENTOR-LL.pdf
+planar light pipe 4 way 3mm PLCC-2 PLCC-4
+0
+0
+0
+OptoDevice
 Lite-On_LTR-303ALS-01
 ambient light sensor, i2c interface, 6-pin chipled package, http://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf
 ambient light sensor chipled
@@ -50399,6 +50840,20 @@ Siemens SFH900 reflex photo interrupter coupler object detector
 0
 3
 3
+OptoDevice
+ST_VL53L0X
+https://www.st.com/resource/en/datasheet/vl53l1x.pdf
+laser-ranging sensor
+0
+12
+12
+OptoDevice
+ST_VL53L1X
+https://www.st.com/resource/en/datasheet/vl53l1x.pdf
+laser-ranging sensor
+0
+12
+12
 OptoDevice
 Toshiba_TORX170_TORX173_TORX193_TORX194
 Fiberoptic Reciver, RX, Toshiba, Toslink, TORX170, TORX173, TORX193, TORX194
@@ -51835,6 +52290,20 @@ LFCSP DFN_QFN
 35
 21
 Package_CSP
+LFCSP-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm
+LFCSP, 20 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-20/CP_20_8.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LFCSP NoLead
+0
+25
+21
+Package_CSP
+LFCSP-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias
+LFCSP, 20 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-20/CP_20_8.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LFCSP NoLead
+0
+35
+21
+Package_CSP
 LFCSP-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm
 LFCSP, 24 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_24_7.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 LFCSP DFN_QFN
@@ -51849,12 +52318,40 @@ LFCSP DFN_QFN
 39
 25
 Package_CSP
+LFCSP-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+LFCSP, 32 Pin (https://www.analog.com/media/en/package-pcb-resources/package/414143737956480539664569cp_32_2.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LFCSP NoLead
+0
+42
+33
+Package_CSP
+LFCSP-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias
+LFCSP, 32 Pin (https://www.analog.com/media/en/package-pcb-resources/package/414143737956480539664569cp_32_2.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LFCSP NoLead
+0
+59
+33
+Package_CSP
 LFCSP-32-1EP_5x5mm_P0.5mm_EP3.25x3.25mm
 32-Lead Frame Chip Scale Package LFCSP (5mm x 5mm); (see http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-32/CP_32_27.pdf
 LFCSP 0.5
 0
 37
 33
+Package_CSP
+LFCSP-48-1EP_7x7mm_P0.5mm_EP4.1x4.1mm
+LFCSP, 48 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_48_5.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LFCSP NoLead
+0
+58
+49
+Package_CSP
+LFCSP-48-1EP_7x7mm_P0.5mm_EP4.1x4.1mm_ThermalVias
+LFCSP, 48 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_48_5.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LFCSP NoLead
+0
+75
+49
 Package_CSP
 LFCSP-64-1EP_9x9mm_P0.5mm_EP5.21x5.21mm
 LFCSP, 64 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_64_7.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -53340,6 +53837,20 @@ QFN DFN_QFN
 53
 29
 Package_DFN_QFN
+QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm
+QFN, 28 Pin (http://www.issi.com/WW/pdf/31FL3731.pdf#page=21), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+33
+29
+Package_DFN_QFN
+QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm_ThermalVias
+QFN, 28 Pin (http://www.issi.com/WW/pdf/31FL3731.pdf#page=21), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+43
+29
+Package_DFN_QFN
 QFN-28-1EP_4x4mm_P0.4mm_EP2.4x2.4mm
 QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=280), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
@@ -53679,6 +54190,20 @@ Package_DFN_QFN
 QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm_ThermalVias
 QFN, 40 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=297), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
+0
+67
+41
+Package_DFN_QFN
+QFN-40-1EP_5x5mm_P0.4mm_EP3.8x3.8mm
+QFN, 40 Pin (http://www.issi.com/WW/pdf/31FL3736.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+50
+41
+Package_DFN_QFN
+QFN-40-1EP_5x5mm_P0.4mm_EP3.8x3.8mm_ThermalVias
+QFN, 40 Pin (http://www.issi.com/WW/pdf/31FL3736.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 67
 41
@@ -54096,6 +54621,20 @@ QFN DFN_QFN
 111
 69
 Package_DFN_QFN
+QFN-72-1EP_10x10mm_P0.5mm_EP6x6mm
+QFN, 72 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00001682C.pdf#page=70), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+82
+73
+Package_DFN_QFN
+QFN-72-1EP_10x10mm_P0.5mm_EP6x6mm_ThermalVias
+QFN, 72 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00001682C.pdf#page=70), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+135
+73
+Package_DFN_QFN
 QFN-76-1EP_9x9mm_P0.4mm_EP3.8x3.8mm
 QFN, 76 Pin (https://www.marvell.com/documents/bqcwxsoiqfjkcjdjhkvc/#page=19), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
@@ -54173,6 +54712,13 @@ DFN
 12
 12
 Package_DFN_QFN
+Texas_DRB0008A
+DFN-8, 3x3x1mm, http://www.ti.com/lit/ds/symlink/ucc24610.pdf
+DRB0008A
+0
+23
+9
+Package_DFN_QFN
 Texas_MOF0009A
 Texas Instruments, QFM MOF0009A, 6x8x2mm (http://www.ti.com/lit/ml/mpsi063a/mpsi063a.pdf)
 ti qfm mof0009a
@@ -54227,6 +54773,20 @@ Texas  QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/tlc5971.pdf#page=43), gener
 Texas QFN NoLead
 0
 39
+25
+Package_DFN_QFN
+Texas_RGY_R-PVQFN-N24_EP2.05x3.1mm
+QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/bq24133.pdf#page=40)
+QFN NoLead
+0
+29
+25
+Package_DFN_QFN
+Texas_RGY_R-PVQFN-N24_EP2.05x3.1mm_ThermalVias
+QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/bq24133.pdf#page=40)
+QFN NoLead
+0
+36
 25
 Package_DFN_QFN
 Texas_RNN0018A
@@ -54544,6 +55104,13 @@ MultiRow QFN
 131
 105
 Package_DFN_QFN
+Texas_S-PX2QFN-14
+Texas  QFN, 14 Pin (http://www.ti.com/lit/ds/symlink/tlv9004.pdf#page=64), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas QFN NoLead
+0
+14
+14
+Package_DFN_QFN
 Texas_VQFN-RHL-20
 http://www.ti.com/lit/ds/symlink/bq51050b.pdf
 RHL0020A
@@ -54768,6 +55335,20 @@ DFN 0.5
 11
 9
 Package_DFN_QFN
+VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm
+VQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/cdclvp1102.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+21
+17
+Package_DFN_QFN
+VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias
+VQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/cdclvp1102.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+26
+17
+Package_DFN_QFN
 VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm
 VQFN, 16 Pin (https://www.st.com/resource/en/datasheet/stspin220.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 VQFN DFN_QFN
@@ -54971,6 +55552,20 @@ WQFN-20 4.5mm 2.5mm 0.5mm
 24
 21
 Package_DFN_QFN
+WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm
+WQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/lm26480.pdf#page=39), generated with kicad-footprint-generator ipc_noLead_generator.py
+WQFN NoLead
+0
+29
+25
+Package_DFN_QFN
+WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias
+WQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/lm26480.pdf#page=39), generated with kicad-footprint-generator ipc_noLead_generator.py
+WQFN NoLead
+0
+39
+25
+Package_DFN_QFN
 WQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
 QFN, 32-Leads, Body 5x5x0.8mm, Pitch 0.5mm, Thermal Pad 3.1x3.1mm; (see Texas Instruments LM25119 http://www.ti.com/lit/ds/symlink/lm25119.pdf)
 WQFN 0.5
@@ -55145,6 +55740,27 @@ THT DIP DIL PDIP 2.54mm 10.16mm 400mil LongPads
 0
 6
 6
+Package_DIP
+DIP-8-16_W7.62mm
+16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+8
+8
+Package_DIP
+DIP-8-16_W7.62mm_Socket
+16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket
+0
+8
+8
+Package_DIP
+DIP-8-16_W7.62mm_Socket_LongPads
+16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket, LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads
+0
+8
+8
 Package_DIP
 DIP-8-N6_W7.62mm
 8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), missing pin 6
@@ -56883,8 +57499,8 @@ lga land grid array
 8
 Package_LGA
 Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering
-Bosch  LGA, 8 Pin (https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf#page=44), generated with kicad-footprint-generator ipc_lga_layoutBorder_generator.py
-Bosch LGA LGA
+Bosch  LGA, 8 Pin (https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
+Bosch LGA NoLead
 0
 8
 8
@@ -56911,22 +57527,22 @@ lga land grid array
 12
 Package_LGA
 LGA-14_2x2mm_P0.35mm_LayoutBorder3x4y
-LGA, 14 Pin (http://www.st.com/resource/en/datasheet/lis2dh.pdf), generated with kicad-footprint-generator ipc_lga_layoutBorder_generator.py
-LGA LGA
+LGA, 14 Pin (http://www.st.com/resource/en/datasheet/lis2dh.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LGA NoLead
 0
 14
 14
 Package_LGA
 LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y
-LGA, 14 Pin (http://www.st.com/resource/en/datasheet/lsm6ds3.pdf), generated with kicad-footprint-generator ipc_lga_layoutBorder_generator.py
-LGA LGA
+LGA, 14 Pin (http://www.st.com/resource/en/datasheet/lsm6ds3.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LGA NoLead
 0
 14
 14
 Package_LGA
 LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y
-LGA, 14 Pin (http://www.st.com/resource/en/datasheet/lsm303dlhc.pdf), generated with kicad-footprint-generator ipc_lga_layoutBorder_generator.py
-LGA LGA
+LGA, 14 Pin (http://www.st.com/resource/en/datasheet/lsm303dlhc.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LGA NoLead
 0
 14
 14
@@ -56939,15 +57555,15 @@ lga land grid array
 16
 Package_LGA
 LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y
-LGA, 16 Pin (http://www.st.com/resource/en/datasheet/lis331hh.pdf), generated with kicad-footprint-generator ipc_lga_layoutBorder_generator.py
-LGA LGA
+LGA, 16 Pin (http://www.st.com/resource/en/datasheet/lis331hh.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LGA NoLead
 0
 16
 16
 Package_LGA
 LGA-16_4x4mm_P0.65mm_LayoutBorder4x4y
-LGA, 16 Pin (http://www.st.com/resource/en/datasheet/l3gd20.pdf), generated with kicad-footprint-generator ipc_lga_layoutBorder_generator.py
-LGA LGA
+LGA, 16 Pin (http://www.st.com/resource/en/datasheet/l3gd20.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LGA NoLead
 0
 16
 16
@@ -56973,6 +57589,13 @@ Analog Devices (Linear Tech), 133-pin LGA uModule, 15.0x15.0x4.32mm, https://www
 133
 133
 Package_LGA
+NXP_LGA-8_3x5mm_P1.25mm_H1.1mm
+NXP  LGA, 8 Pin (https://www.nxp.com/docs/en/data-sheet/MPL3115A2.pdf#page=42), generated with kicad-footprint-generator ipc_noLead_generator.py
+NXP LGA NoLead
+0
+8
+8
+Package_LGA
 NXP_LGA-8_3x5mm_P1.25mm_H1.2mm
 NXP  LGA, 8 Pin (https://www.nxp.com/docs/en/data-sheet/MPL115A1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 NXP LGA NoLead
@@ -56981,8 +57604,8 @@ NXP LGA NoLead
 8
 Package_LGA
 ST_HLGA-10_2.5x2.5mm_P0.6mm_LayoutBorder3x2y
-ST  HLGA, 10 Pin (https://www.st.com/resource/en/datasheet/lps25hb.pdf#page=46), generated with kicad-footprint-generator ipc_lga_layoutBorder_generator.py
-ST HLGA LGA
+ST  HLGA, 10 Pin (https://www.st.com/resource/en/datasheet/lps25hb.pdf#page=46), generated with kicad-footprint-generator ipc_noLead_generator.py
+ST HLGA NoLead
 0
 10
 10
@@ -57168,6 +57791,20 @@ LQFP QFP
 0
 52
 52
+Package_QFP
+LQFP-64-1EP_10x10mm_P0.5mm_EP5x5mm
+LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/adv7611.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+90
+65
+Package_QFP
+LQFP-64-1EP_10x10mm_P0.5mm_EP5x5mm_ThermalVias
+LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/adv7611.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+107
+65
 Package_QFP
 LQFP-64-1EP_10x10mm_P0.5mm_EP6.5x6.5mm
 LQFP, 64 Pin (https://www.nxp.com/files-static/shared/doc/package_info/98ARH98426A.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -58149,6 +58786,20 @@ MSOP SO
 12
 12
 Package_SO
+MSOP-16-1EP_3x4.039mm_P0.5mm_EP1.651x2.845mm
+MSOP, 16 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-msop/05081667_F_MSE16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+MSOP SO
+0
+21
+17
+Package_SO
+MSOP-16-1EP_3x4.039mm_P0.5mm_EP1.651x2.845mm_ThermalVias
+MSOP, 16 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-msop/05081667_F_MSE16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+MSOP SO
+0
+28
+17
+Package_SO
 MSOP-16-1EP_3x4mm_P0.5mm_EP1.65x2.85mm
 MSOP, 16 Pin (http://cds.linear.com/docs/en/datasheet/37551fd.pdf#page=23), generated with kicad-footprint-generator ipc_gullwing_generator.py
 MSOP SO
@@ -58162,6 +58813,13 @@ MSOP SO
 0
 28
 17
+Package_SO
+MSOP-16_3x4.039mm_P0.5mm
+MSOP, 16 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-msop/05081669_A_MS16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+MSOP SO
+0
+16
+16
 Package_SO
 MSOP-16_3x4mm_P0.5mm
 MSOP, 16 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/436412f.pdf#page=22), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -58429,6 +59087,20 @@ SOIC SO
 8
 8
 Package_SO
+SOIC-8_5.275x5.275mm_P1.27mm
+SOIC, 8 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/20005045C.pdf#page=23), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+Package_SO
+SOIC-8_7.5x5.85mm_P1.27mm
+SOIC, 8 Pin (http://www.ti.com/lit/ml/mpds382b/mpds382b.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+Package_SO
 SOIC-14W_7.5x9mm_P1.27mm
 SOIC, 14 Pin (JEDEC MS-013AF, https://www.analog.com/media/en/package-pcb-resources/package/54614177245586rw_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
@@ -58548,6 +59220,20 @@ SOP SO
 4
 4
 Package_SO
+SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm
+SOP, 8 Pin (Mini-Circuits XX112 housing; https://ww2.minicircuits.com/case_style/XX112.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+13
+9
+Package_SO
+SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm_ThermalVias
+SOP, 8 Pin (Mini-Circuits XX112 housing; https://ww2.minicircuits.com/case_style/XX112.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+20
+9
+Package_SO
 SOP-8_3.76x4.96mm_P1.27mm
 SOP, 8 Pin (https://ww2.minicircuits.com/case_style/XX211.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOP SO
@@ -58582,6 +59268,13 @@ SOP SO
 0
 18
 18
+Package_SO
+SOP-24_7.5x15.4mm_P1.27mm
+SOP, 24 Pin (http://www.issi.com/WW/pdf/31FL3218.pdf#page=14), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+24
+24
 Package_SO
 SSO-4_6.7x5.1mm_P2.54mm_Clearance8mm
 4-Lead Plastic Stretched Small Outline (SSO/Stretched SO), see https://www.vishay.com/docs/84299/vor1142b4.pdf
@@ -59199,6 +59892,13 @@ Fairchild-specific MicroPak2-6 1.0x1.0mm Pitch 0.35mm
 6
 6
 Package_SON
+HUSON-3-1EP_2x2mm_P1.3mm_EP1.1x1.6mm
+HUSON, 3 Pin, SOT1061 (Ref: https://assets.nexperia.com/documents/data-sheet/PMEG2020CPA.pdf)
+huson nolead SOT1061
+0
+4
+3
+Package_SON
 HVSON-8-1EP_4x4mm_P0.8mm_EP2.2x3.1mm
 HVSON, 8 Pin (https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf (page 57)), generated with kicad-footprint-generator ipc_noLead_generator.py
 HVSON NoLead
@@ -59449,6 +60149,20 @@ WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias
 WSON 8 1EP ThermalVias
 0
 14
+9
+Package_SON
+WSON-8-1EP_3x2.5mm_P0.5mm_EP1.2x1.5mm_PullBack
+WSON, 8 Pin (http://www.ti.com/lit/ml/mpds400/mpds400.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+13
+9
+Package_SON
+WSON-8-1EP_3x2.5mm_P0.5mm_EP1.2x1.5mm_PullBack_ThermalVias
+WSON, 8 Pin (http://www.ti.com/lit/ml/mpds400/mpds400.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+18
 9
 Package_SON
 WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm
@@ -64763,6 +65477,13 @@ PCB antenna
 0
 2
 2
+RF_Antenna
+Texas_SWRA416_868MHz_915MHz
+http://www.ti.com/lit/an/swra416/swra416.pdf
+PCB antenna
+0
+20
+1
 RF_Converter
 Anaren_0805_2012Metric-6
 https://cdn.anaren.com/product-documents/Xinger/DirectionalCouplers/DC4759J5020AHF/DC4759J5020AHF_DataSheet(Rev_E).pdf
@@ -66979,6 +67700,41 @@ Symbol
 WEEE-Logo_28.1x40mm_SilkScreen
 Waste Electrical and Electronic Equipment Directive
 Logo WEEE
+0
+0
+0
+Symbols_Extra
+SolderParty-Logo_6.3x5.9mm_SilkScreen
+
+
+0
+0
+0
+Symbols_Extra
+SolderParty-Logo_9.5x8.8mm_SilkScreen
+
+
+0
+0
+0
+Symbols_Extra
+SolderParty-Logo_12.6x11.7mm_SilkScreen
+
+
+0
+0
+0
+Symbols_Extra
+SolderParty-Logo_13.5x12.6mm_SilkScreen
+
+
+0
+0
+0
+Symbols_Extra
+SolderParty-Logo_14.6x13.5mm_SilkScreen
+
+
 0
 0
 0
