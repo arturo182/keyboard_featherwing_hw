@@ -1,5 +1,5 @@
-EESchema Schematic File Version 4
-EELAYER 29 0
+EESchema Schematic File Version 5
+EELAYER 32 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -12,20 +12,124 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
-$Comp
-L Display_Graphic_Extra:ER-TFT02X U4
-U 1 1 5CDC48E1
-P 6100 3400
-F 0 "U4" H 6550 4850 60  0000 R CNN
-F 1 "ER-TFT02X" H 6100 1850 60  0000 C CNN
-F 2 "Connector_EastRising:ER-CON50HT-1" H 6100 2650 60  0001 C CNN
-F 3 "" H 6100 2650 60  0001 C CNN
-	1    6100 3400
-	1    0    0    -1  
-$EndComp
+Connection ~ 6800 3000
+Connection ~ 6800 3100
+Connection ~ 6800 3200
+Connection ~ 6800 3300
+Connection ~ 6800 3400
+Connection ~ 6800 3500
+Connection ~ 6800 3600
+Connection ~ 6800 3700
+Connection ~ 6800 3800
+Connection ~ 6800 3900
+Connection ~ 6800 4000
+Connection ~ 6800 4100
+Connection ~ 6800 4200
+Connection ~ 6800 4300
+Connection ~ 6800 4400
+Connection ~ 6800 4500
+Connection ~ 6800 4600
+Connection ~ 5400 2200
+Connection ~ 5400 2100
+Connection ~ 5400 2300
+Connection ~ 5400 2800
+Connection ~ 5400 2700
+Connection ~ 5400 2600
+Connection ~ 4150 2950
+Connection ~ 6800 2100
+NoConn ~ 5400 4100
 Wire Wire Line
-	6750 2700 6850 2700
+	4150 2950 4100 2950
+Wire Wire Line
+	4150 2950 4150 2900
+Wire Wire Line
+	4200 2950 4150 2950
+Wire Wire Line
+	4500 2600 4500 2750
+Wire Wire Line
+	4500 2600 5000 2600
+Wire Wire Line
+	4500 3150 4500 3250
+Wire Wire Line
+	5000 2100 4900 2100
+Wire Wire Line
+	5000 2200 4900 2200
+Wire Wire Line
+	5400 2100 5200 2100
+Wire Wire Line
+	5400 2100 5400 2050
+Wire Wire Line
+	5400 2100 5450 2100
+Wire Wire Line
+	5400 2200 5200 2200
+Wire Wire Line
+	5400 2200 5400 2100
+Wire Wire Line
+	5400 2200 5450 2200
+Wire Wire Line
+	5400 2300 5400 2200
+Wire Wire Line
+	5400 2300 5450 2300
+Wire Wire Line
+	5400 2500 5400 2300
+Wire Wire Line
+	5400 2500 5450 2500
+Wire Wire Line
+	5400 2600 5200 2600
+Wire Wire Line
+	5400 2600 5400 2700
+Wire Wire Line
+	5400 2600 5450 2600
+Wire Wire Line
+	5400 2700 5450 2700
+Wire Wire Line
+	5400 2800 5400 2700
+Wire Wire Line
+	5400 2800 5450 2800
+Wire Wire Line
+	5400 2900 5400 2800
+Wire Wire Line
+	5400 2900 5450 2900
+Wire Wire Line
+	5400 3100 5450 3100
+Wire Wire Line
+	5400 3200 5450 3200
+Wire Wire Line
+	5400 3300 5450 3300
+Wire Wire Line
+	5400 3400 5450 3400
+Wire Wire Line
+	5400 3600 5450 3600
+Wire Wire Line
+	5400 3700 5450 3700
+Wire Wire Line
+	5400 3800 5450 3800
+Wire Wire Line
+	5400 3900 5450 3900
+Wire Wire Line
+	5400 4000 5450 4000
+Wire Wire Line
+	5400 4100 5450 4100
+Wire Wire Line
+	5400 4300 5450 4300
+Wire Wire Line
+	5400 4800 5400 4850
+Wire Wire Line
+	5450 4400 5400 4400
+Wire Wire Line
+	5450 4500 5400 4500
+Wire Wire Line
+	5450 4600 5400 4600
+Wire Wire Line
+	5450 4800 5400 4800
+Wire Wire Line
+	6750 2100 6800 2100
 Wire Wire Line
 	6750 2200 6850 2200
 Wire Wire Line
@@ -35,7 +139,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 2500 6850 2500
 Wire Wire Line
-	6750 2100 6800 2100
+	6750 2700 6850 2700
 Wire Wire Line
 	6750 2900 6800 2900
 Wire Wire Line
@@ -73,130 +177,61 @@ Wire Wire Line
 Wire Wire Line
 	6750 4600 6800 4600
 Wire Wire Line
+	6800 1850 6800 1800
+Wire Wire Line
+	6800 2100 6800 2050
+Wire Wire Line
+	6800 2100 6850 2100
+Wire Wire Line
 	6800 2900 6800 3000
-Connection ~ 6800 3000
 Wire Wire Line
 	6800 3000 6800 3100
-Connection ~ 6800 3100
 Wire Wire Line
 	6800 3100 6800 3200
-Connection ~ 6800 3200
 Wire Wire Line
 	6800 3200 6800 3300
-Connection ~ 6800 3300
 Wire Wire Line
 	6800 3300 6800 3400
-Connection ~ 6800 3400
 Wire Wire Line
 	6800 3400 6800 3500
-Connection ~ 6800 3500
 Wire Wire Line
 	6800 3500 6800 3600
-Connection ~ 6800 3600
 Wire Wire Line
 	6800 3600 6800 3700
-Connection ~ 6800 3700
 Wire Wire Line
 	6800 3700 6800 3800
-Connection ~ 6800 3800
 Wire Wire Line
 	6800 3800 6800 3900
-Connection ~ 6800 3900
 Wire Wire Line
 	6800 3900 6800 4000
-Connection ~ 6800 4000
 Wire Wire Line
 	6800 4000 6800 4100
-Connection ~ 6800 4100
 Wire Wire Line
 	6800 4100 6800 4200
-Connection ~ 6800 4200
 Wire Wire Line
 	6800 4200 6800 4300
-Connection ~ 6800 4300
 Wire Wire Line
 	6800 4300 6800 4400
-Connection ~ 6800 4400
 Wire Wire Line
 	6800 4400 6800 4500
-Connection ~ 6800 4500
 Wire Wire Line
 	6800 4500 6800 4600
-Connection ~ 6800 4600
 Wire Wire Line
 	6800 4600 6800 4650
-Wire Wire Line
-	5400 2100 5450 2100
-Wire Wire Line
-	5400 2200 5450 2200
-Wire Wire Line
-	5400 2300 5450 2300
-Wire Wire Line
-	5400 2500 5450 2500
-Wire Wire Line
-	5400 2600 5450 2600
-Wire Wire Line
-	5400 2700 5450 2700
-Wire Wire Line
-	5400 2800 5450 2800
-Wire Wire Line
-	5400 2900 5450 2900
-Wire Wire Line
-	5400 3100 5450 3100
-Wire Wire Line
-	5400 3200 5450 3200
-Wire Wire Line
-	5400 3300 5450 3300
-Wire Wire Line
-	5400 3400 5450 3400
-Wire Wire Line
-	5400 3600 5450 3600
-Wire Wire Line
-	5400 3700 5450 3700
-Wire Wire Line
-	5400 3800 5450 3800
-Wire Wire Line
-	5400 3900 5450 3900
-Wire Wire Line
-	5400 4000 5450 4000
-Wire Wire Line
-	5400 4100 5450 4100
-Wire Wire Line
-	5400 4300 5450 4300
-Wire Wire Line
-	5450 4400 5400 4400
-Wire Wire Line
-	5450 4500 5400 4500
-Wire Wire Line
-	5450 4600 5400 4600
-Wire Wire Line
-	5450 4800 5400 4800
-Wire Wire Line
-	5400 4800 5400 4850
-$Comp
-L power:GND #PWR041
-U 1 1 5CDCF637
-P 5400 4850
-F 0 "#PWR041" H 5400 4600 50  0001 C CNN
-F 1 "GND" H 5400 4700 50  0000 C CNN
-F 2 "" H 5400 4850 50  0001 C CNN
-F 3 "" H 5400 4850 50  0001 C CNN
-	1    5400 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR043
-U 1 1 5CDCF73D
-P 6800 4650
-F 0 "#PWR043" H 6800 4400 50  0001 C CNN
-F 1 "GND" H 6800 4500 50  0000 C CNN
-F 2 "" H 6800 4650 50  0001 C CNN
-F 3 "" H 6800 4650 50  0001 C CNN
-	1    6800 4650
-	1    0    0    -1  
-$EndComp
-Text HLabel 6850 2700 2    50   Input ~ 0
-RESET
+Text Notes 4050 3700 0    50   ~ 0
+BL active HIGH\nOn by default
+Text HLabel 4100 2950 0    50   Input ~ 0
+BL_CTRL
+Text HLabel 5400 4300 0    50   Output ~ 0
+TP_XP
+Text HLabel 5400 4400 0    50   Output ~ 0
+TP_YP
+Text HLabel 5400 4500 0    50   Output ~ 0
+TP_XM
+Text HLabel 5400 4600 0    50   Output ~ 0
+TP_YM
+Text HLabel 6850 2100 2    50   Input ~ 0
+CS
 Text HLabel 6850 2200 2    50   Output ~ 0
 SDO
 Text HLabel 6850 2300 2    50   Input ~ 0
@@ -205,16 +240,19 @@ Text HLabel 6850 2400 2    50   Input ~ 0
 DC
 Text HLabel 6850 2500 2    50   Input ~ 0
 SCL
-Text HLabel 6850 2100 2    50   Input ~ 0
-CS
-Wire Wire Line
-	5400 2300 5400 2200
-Wire Wire Line
-	5400 2200 5400 2100
-Connection ~ 5400 2200
-Wire Wire Line
-	5400 2100 5400 2050
-Connection ~ 5400 2100
+Text HLabel 6850 2700 2    50   Input ~ 0
+RESET
+$Comp
+L power:+3.3V #PWR047
+U 1 1 5CF6E05B
+P 4150 2700
+F 0 "#PWR047" H 4150 2550 50  0001 C CNN
+F 1 "+3.3V" H 4150 2850 50  0000 C CNN
+F 2 "" H 4150 2700 50  0001 C CNN
+F 3 "" H 4150 2700 50  0001 C CNN
+	1    4150 2700
+	1    0    0    -1  
+$EndComp
 $Comp
 L power:+3.3V #PWR031
 U 1 1 5CDD43E5
@@ -225,148 +263,6 @@ F 2 "" H 5400 2050 50  0001 C CNN
 F 3 "" H 5400 2050 50  0001 C CNN
 	1    5400 2050
 	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5400 2100 5200 2100
-Wire Wire Line
-	5400 2200 5200 2200
-$Comp
-L Device:C_Small C4
-U 1 1 5CDD77E3
-P 5100 2100
-F 0 "C4" V 5050 2050 50  0000 R CNN
-F 1 "0.1uF" V 5050 2150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5100 2100 50  0001 C CNN
-F 3 "~" H 5100 2100 50  0001 C CNN
-	1    5100 2100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5000 2100 4900 2100
-$Comp
-L power:GND #PWR029
-U 1 1 5CDD99B0
-P 4900 2100
-F 0 "#PWR029" H 4900 1850 50  0001 C CNN
-F 1 "GND" V 4900 1900 50  0000 C CNN
-F 2 "" H 4900 2100 50  0001 C CNN
-F 3 "" H 4900 2100 50  0001 C CNN
-	1    4900 2100
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR030
-U 1 1 5CDDA5C6
-P 4900 2200
-F 0 "#PWR030" H 4900 1950 50  0001 C CNN
-F 1 "GND" V 4900 2000 50  0000 C CNN
-F 2 "" H 4900 2200 50  0001 C CNN
-F 3 "" H 4900 2200 50  0001 C CNN
-	1    4900 2200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C5
-U 1 1 5CDDC27B
-P 5100 2200
-F 0 "C5" V 5050 2150 50  0000 R CNN
-F 1 "10uF" V 5050 2250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5100 2200 50  0001 C CNN
-F 3 "~" H 5100 2200 50  0001 C CNN
-	1    5100 2200
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	5000 2200 4900 2200
-Wire Wire Line
-	5400 2500 5400 2300
-Connection ~ 5400 2300
-Wire Wire Line
-	5400 2900 5400 2800
-Wire Wire Line
-	5400 2800 5400 2700
-Connection ~ 5400 2800
-Wire Wire Line
-	5400 2600 5400 2700
-Connection ~ 5400 2700
-Wire Wire Line
-	5400 2600 5200 2600
-Connection ~ 5400 2600
-$Comp
-L Device:R_Small R7
-U 1 1 5CDEC50C
-P 5100 2600
-F 0 "R7" V 5050 2500 50  0000 R CNN
-F 1 "10R" V 5050 2700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5100 2600 50  0001 C CNN
-F 3 "~" H 5100 2600 50  0001 C CNN
-	1    5100 2600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4500 2600 4500 2750
-$Comp
-L Transistor_FET:BSS138 Q?
-U 1 1 5CDF9A4F
-P 4400 2950
-AR Path="/5CD35331/5CDF9A4F" Ref="Q?"  Part="1" 
-AR Path="/5CDC44BE/5CDF9A4F" Ref="Q2"  Part="1" 
-F 0 "Q2" H 4606 2996 50  0000 L CNN
-F 1 "BSS138" H 4606 2905 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4600 2875 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 4400 2950 50  0001 L CNN
-	1    4400 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4500 3150 4500 3250
-$Comp
-L power:GND #PWR?
-U 1 1 5CDF9A56
-P 4500 3250
-AR Path="/5CD35331/5CDF9A56" Ref="#PWR?"  Part="1" 
-AR Path="/5CDC44BE/5CDF9A56" Ref="#PWR028"  Part="1" 
-F 0 "#PWR028" H 4500 3000 50  0001 C CNN
-F 1 "GND" H 4500 3100 50  0000 C CNN
-F 2 "" H 4500 3250 50  0001 C CNN
-F 3 "" H 4500 3250 50  0001 C CNN
-	1    4500 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 2950 4150 2950
-Connection ~ 4150 2950
-Wire Wire Line
-	4150 2950 4100 2950
-$Comp
-L Device:R_Small R?
-U 1 1 5CDF9A60
-P 4150 2800
-AR Path="/5CD35331/5CDF9A60" Ref="R?"  Part="1" 
-AR Path="/5CDC44BE/5CDF9A60" Ref="R6"  Part="1" 
-F 0 "R6" H 4092 2754 50  0000 R CNN
-F 1 "10K" H 4092 2845 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 2800 50  0001 C CNN
-F 3 "~" H 4150 2800 50  0001 C CNN
-	1    4150 2800
-	-1   0    0    1   
-$EndComp
-Text Notes 4050 3700 0    50   ~ 0
-BL active HIGH\nOn by default
-Wire Wire Line
-	4500 2600 5000 2600
-Text HLabel 4100 2950 0    50   Input ~ 0
-BL_CTRL
-$Comp
-L power:GND #PWR032
-U 1 1 5CE0066A
-P 5400 3100
-F 0 "#PWR032" H 5400 2850 50  0001 C CNN
-F 1 "GND" V 5400 2900 50  0000 C CNN
-F 2 "" H 5400 3100 50  0001 C CNN
-F 3 "" H 5400 3100 50  0001 C CNN
-	1    5400 3100
-	0    1    1    0   
 $EndComp
 $Comp
 L power:+3.3V #PWR033
@@ -401,7 +297,6 @@ F 3 "" H 5400 3400 50  0001 C CNN
 	1    5400 3400
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 5400 4100
 $Comp
 L power:+3.3V #PWR036
 U 1 1 5CE03C3A
@@ -412,6 +307,63 @@ F 2 "" H 5400 3600 50  0001 C CNN
 F 3 "" H 5400 3600 50  0001 C CNN
 	1    5400 3600
 	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR042
+U 1 1 5CE35F78
+P 6800 1800
+F 0 "#PWR042" H 6800 1650 50  0001 C CNN
+F 1 "+3.3V" H 6800 1950 50  0000 C CNN
+F 2 "" H 6800 1800 50  0001 C CNN
+F 3 "" H 6800 1800 50  0001 C CNN
+	1    6800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CDF9A56
+P 4500 3250
+AR Path="/5CD35331/5CDF9A56" Ref="#PWR?"  Part="1" 
+AR Path="/5CDC44BE/5CDF9A56" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 4500 3000 50  0001 C CNN
+F 1 "GND" H 4500 3100 50  0000 C CNN
+F 2 "" H 4500 3250 50  0001 C CNN
+F 3 "" H 4500 3250 50  0001 C CNN
+	1    4500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 5CDD99B0
+P 4900 2100
+F 0 "#PWR029" H 4900 1850 50  0001 C CNN
+F 1 "GND" V 4900 1900 50  0000 C CNN
+F 2 "" H 4900 2100 50  0001 C CNN
+F 3 "" H 4900 2100 50  0001 C CNN
+	1    4900 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 5CDDA5C6
+P 4900 2200
+F 0 "#PWR030" H 4900 1950 50  0001 C CNN
+F 1 "GND" V 4900 2000 50  0000 C CNN
+F 2 "" H 4900 2200 50  0001 C CNN
+F 3 "" H 4900 2200 50  0001 C CNN
+	1    4900 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 5CE0066A
+P 5400 3100
+F 0 "#PWR032" H 5400 2850 50  0001 C CNN
+F 1 "GND" V 5400 2900 50  0000 C CNN
+F 2 "" H 5400 3100 50  0001 C CNN
+F 3 "" H 5400 3100 50  0001 C CNN
+	1    5400 3100
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR037
@@ -457,19 +409,52 @@ F 3 "" H 5400 4000 50  0001 C CNN
 	1    5400 4000
 	0    1    1    0   
 $EndComp
-Text HLabel 5400 4300 0    50   Output ~ 0
-TP_XP
-Text HLabel 5400 4400 0    50   Output ~ 0
-TP_YP
-Text HLabel 5400 4500 0    50   Output ~ 0
-TP_XM
-Text HLabel 5400 4600 0    50   Output ~ 0
-TP_YM
-Wire Wire Line
-	6800 2100 6800 2050
-Connection ~ 6800 2100
-Wire Wire Line
-	6800 2100 6850 2100
+$Comp
+L power:GND #PWR041
+U 1 1 5CDCF637
+P 5400 4850
+F 0 "#PWR041" H 5400 4600 50  0001 C CNN
+F 1 "GND" H 5400 4700 50  0000 C CNN
+F 2 "" H 5400 4850 50  0001 C CNN
+F 3 "" H 5400 4850 50  0001 C CNN
+	1    5400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR043
+U 1 1 5CDCF73D
+P 6800 4650
+F 0 "#PWR043" H 6800 4400 50  0001 C CNN
+F 1 "GND" H 6800 4500 50  0000 C CNN
+F 2 "" H 6800 4650 50  0001 C CNN
+F 3 "" H 6800 4650 50  0001 C CNN
+	1    6800 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CDF9A60
+P 4150 2800
+AR Path="/5CD35331/5CDF9A60" Ref="R?"  Part="1" 
+AR Path="/5CDC44BE/5CDF9A60" Ref="R6"  Part="1" 
+F 0 "R6" H 4092 2754 50  0000 R CNN
+F 1 "10K" H 4092 2845 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 2800 50  0001 C CNN
+F 3 "~" H 4150 2800 50  0001 C CNN
+	1    4150 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 5CDEC50C
+P 5100 2600
+F 0 "R7" V 5050 2500 50  0000 R CNN
+F 1 "10R" V 5050 2700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5100 2600 50  0001 C CNN
+F 3 "~" H 5100 2600 50  0001 C CNN
+	1    5100 2600
+	0    1    1    0   
+$EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5CE2BFB6
@@ -483,30 +468,50 @@ F 3 "~" H 6800 1950 50  0001 C CNN
 	1    6800 1950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6800 1850 6800 1800
 $Comp
-L power:+3.3V #PWR042
-U 1 1 5CE35F78
-P 6800 1800
-F 0 "#PWR042" H 6800 1650 50  0001 C CNN
-F 1 "+3.3V" H 6800 1950 50  0000 C CNN
-F 2 "" H 6800 1800 50  0001 C CNN
-F 3 "" H 6800 1800 50  0001 C CNN
-	1    6800 1800
+L Device:C_Small C4
+U 1 1 5CDD77E3
+P 5100 2100
+F 0 "C4" V 5050 2050 50  0000 R CNN
+F 1 "0.1uF" V 5050 2150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5100 2100 50  0001 C CNN
+F 3 "~" H 5100 2100 50  0001 C CNN
+	1    5100 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5CDDC27B
+P 5100 2200
+F 0 "C5" V 5050 2150 50  0000 R CNN
+F 1 "10uF" V 5050 2250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5100 2200 50  0001 C CNN
+F 3 "~" H 5100 2200 50  0001 C CNN
+	1    5100 2200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5CDF9A4F
+P 4400 2950
+AR Path="/5CD35331/5CDF9A4F" Ref="Q?"  Part="1" 
+AR Path="/5CDC44BE/5CDF9A4F" Ref="Q2"  Part="1" 
+F 0 "Q2" H 4606 2996 50  0000 L CNN
+F 1 "BSS138" H 4606 2905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4600 2875 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 4400 2950 50  0001 L CNN
+	1    4400 2950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 2950 4150 2900
 $Comp
-L power:+3.3V #PWR047
-U 1 1 5CF6E05B
-P 4150 2700
-F 0 "#PWR047" H 4150 2550 50  0001 C CNN
-F 1 "+3.3V" H 4150 2850 50  0000 C CNN
-F 2 "" H 4150 2700 50  0001 C CNN
-F 3 "" H 4150 2700 50  0001 C CNN
-	1    4150 2700
+L Display_Graphic_Extra:ER-TFT02X U4
+U 1 1 5CDC48E1
+P 6100 3400
+F 0 "U4" H 6550 4850 60  0000 R CNN
+F 1 "ER-TFT02X" H 6100 1850 60  0000 C CNN
+F 2 "Connector_EastRising:ER-CON50HT-1" H 6100 2650 60  0001 C CNN
+F 3 "" H 6100 2650 60  0001 C CNN
+	1    6100 3400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
