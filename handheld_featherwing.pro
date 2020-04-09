@@ -1,4 +1,4 @@
-update=16/03/2020 01:23:42
+update=09/04/2020 17:45:17
 version=1
 last_client=kicad
 [general]
@@ -23,7 +23,7 @@ SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
 [sheetnames]
-1=00000000-0000-0000-0000-00005e70c345:
+1=00000000-0000-0000-0000-00005e8fef2b:
 2=00000000-0000-0000-0000-00005cd35331:Keyboard
 3=00000000-0000-0000-0000-00005cdc44be:LCD
 [pcbnew]
