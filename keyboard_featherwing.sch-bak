@@ -1,5 +1,5 @@
 EESchema Schematic File Version 5
-EELAYER 32 0
+EELAYER 33 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -34,7 +34,7 @@ Connection ~ 10150 3700
 Connection ~ 9400 2200
 NoConn ~ 1800 2200
 NoConn ~ 1800 1500
-NoConn ~ 6050 1650
+NoConn ~ 6050 1000
 NoConn ~ 9800 1400
 NoConn ~ 5150 4550
 Wire Wire Line
@@ -178,11 +178,19 @@ Wire Wire Line
 Wire Wire Line
 	5200 4550 5150 4550
 Wire Wire Line
-	5650 1750 5600 1750
+	5650 1100 5600 1100
 Wire Wire Line
-	6050 1850 6100 1850
+	5850 1900 5900 1900
 Wire Wire Line
-	6100 1850 6100 1900
+	5850 2000 5900 2000
+Wire Wire Line
+	5850 2100 5900 2100
+Wire Wire Line
+	5850 2200 5900 2200
+Wire Wire Line
+	6050 1200 6100 1200
+Wire Wire Line
+	6100 1200 6100 1250
 Wire Wire Line
 	6600 3450 6650 3450
 Wire Wire Line
@@ -407,8 +415,12 @@ Text Label 5150 4350 2    50   ~ 0
 RX
 Text Label 5150 4450 2    50   ~ 0
 TX
-Text Label 5600 1750 2    50   ~ 0
+Text Label 5600 1100 2    50   ~ 0
 EN
+Text Label 5900 2100 0    50   ~ 0
+SDA
+Text Label 5900 2200 0    50   ~ 0
+SCL
 Text Label 6650 3550 0    50   ~ 0
 EN
 Text Label 6650 3750 0    50   ~ 0
@@ -565,6 +577,17 @@ F 2 "" H 5150 3150 50  0001 C CNN
 F 3 "" H 5150 3150 50  0001 C CNN
 	1    5150 3150
 	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E900AF8
+P 5900 2000
+F 0 "#PWR?" H 5900 1850 50  0001 C CNN
+F 1 "+3.3V" V 5900 2150 50  0000 L CNN
+F 2 "" H 5900 2000 50  0001 C CNN
+F 3 "" H 5900 2000 50  0001 C CNN
+	1    5900 2000
+	0    1    1    0   
 $EndComp
 $Comp
 L power:+BATT #PWR05
@@ -743,14 +766,25 @@ F 3 "" H 5150 3350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
+L power:GND #PWR?
+U 1 1 5E9010D0
+P 5900 1900
+F 0 "#PWR?" H 5900 1650 50  0001 C CNN
+F 1 "GND" V 5900 1750 50  0000 R CNN
+F 2 "" H 5900 1900 50  0001 C CNN
+F 3 "" H 5900 1900 50  0001 C CNN
+	1    5900 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
 L power:GND #PWR04
 U 1 1 5CDB1AC0
-P 6100 1900
-F 0 "#PWR04" H 6100 1650 50  0001 C CNN
-F 1 "GND" H 6105 1727 50  0000 C CNN
-F 2 "" H 6100 1900 50  0001 C CNN
-F 3 "" H 6100 1900 50  0001 C CNN
-	1    6100 1900
+P 6100 1250
+F 0 "#PWR04" H 6100 1000 50  0001 C CNN
+F 1 "GND" H 6105 1077 50  0000 C CNN
+F 2 "" H 6100 1250 50  0001 C CNN
+F 3 "" H 6100 1250 50  0001 C CNN
+	1    6100 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -921,14 +955,25 @@ F 3 "~" H 9250 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L Connector_Generic:Conn_01x04 J7
+U 1 1 5E4ACB99
+P 5650 2000
+F 0 "J7" H 5650 2200 50  0000 C CNN
+F 1 "Conn_Stemma_QT" V 5750 1950 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 5650 2000 50  0001 C CNN
+F 3 "~" H 5650 2000 50  0001 C CNN
+	1    5650 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
 L Switch:SW_SPDT SW1
 U 1 1 5CDAF66A
-P 5850 1750
-F 0 "SW1" H 5850 1943 50  0000 C CNN
-F 1 "SW_EN" H 5850 1944 50  0001 C CNN
-F 2 "Button_Switch_SMD:SW_SPDT_PCM12" H 5850 1750 50  0001 C CNN
-F 3 "~" H 5850 1750 50  0001 C CNN
-	1    5850 1750
+P 5850 1100
+F 0 "SW1" H 5850 1293 50  0000 C CNN
+F 1 "SW_EN" H 5850 1294 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPDT_PCM12" H 5850 1100 50  0001 C CNN
+F 3 "~" H 5850 1100 50  0001 C CNN
+	1    5850 1100
 	1    0    0    -1  
 $EndComp
 $Comp
